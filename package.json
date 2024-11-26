@@ -1,0 +1,21 @@
+{
+  "name": "apicrud",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.1",
+    "@prisma/client": "^5.22.0",
+    "@types/node": "^22.9.4",
+    "@types/ws": "^8.5.13",
+    "argon2": "^0.41.1",
+    "bcryptjs": "^2.4.3",
+    "hono": "^4.6.12",
+    "pg": "^8.13.1",
+    "prisma": "^5.22.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.13"
+  }
+}
